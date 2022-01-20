@@ -1,7 +1,8 @@
 namespace Revisao
 {
-    public struct aluno
+    public struct Aluno
     {
-        public int MyProperty { get; set; }
+        public string Nome { get; set; }
+        public decimal Nota { get; set; }
     }
 }

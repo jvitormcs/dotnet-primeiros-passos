@@ -36,7 +36,7 @@ namespace Revisao {
 
                         alunos[indiceAluno] = aluno;
                         indiceAluno++;
-
+                        Console.WriteLine();
                         break;
 
                     case "2":
@@ -54,7 +54,22 @@ namespace Revisao {
                         break;
 
                     case "3":
-                        //TODO: Calcular média geral
+                        decimal notaTotal = 0;
+                        var alunosTotal = 0;
+                        for (int i = 0; i < alunos.Length; i++) {
+
+                        if(!string.IsNullOrEmpty(alunos[i].Nome)){
+                            
+                            notaTotal = notaTotal + alunos[i].Nota;
+                            alunosTotal++;
+                        }
+
+                        }
+                        
+                        var mediaGeral = notaTotal/alunosTotal;
+                        Console.WriteLine($"A Média Geral: {mediaGeral} ");
+                        Console.WriteLine();
+
                         break;
 
                     default:

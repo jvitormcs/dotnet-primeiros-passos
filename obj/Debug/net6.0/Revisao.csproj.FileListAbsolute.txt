@@ -1,0 +1,15 @@
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\bin\Debug\net6.0\Revisao.exe
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\bin\Debug\net6.0\Revisao.deps.json
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\bin\Debug\net6.0\Revisao.runtimeconfig.json
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\bin\Debug\net6.0\Revisao.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\bin\Debug\net6.0\ref\Revisao.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\bin\Debug\net6.0\Revisao.pdb
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\Revisao.csproj.AssemblyReference.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\Revisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\Revisao.AssemblyInfoInputs.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\Revisao.AssemblyInfo.cs
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\Revisao.csproj.CoreCompileInputs.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\Revisao.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\ref\Revisao.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\Revisao.pdb
+C:\Users\vitor\OneDrive\Área de Trabalho\Aulas Dio C#\Revisao\obj\Debug\net6.0\Revisao.genruntimeconfig.cache

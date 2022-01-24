@@ -12,7 +12,7 @@ namespace Revisao {
 
             string opcaoUsuario = ObterOpcaoUsuario();
 
-            while (opcaoUsuario != "4")
+            while (opcaoUsuario != "5")
             {
 
                 switch (opcaoUsuario)
@@ -54,6 +54,26 @@ namespace Revisao {
                         break;
 
                     case "3":
+                        Console.WriteLine("Nome a ser procurado");
+                        var nome = Console.ReadLine();
+                        foreach (var alunoCadastrado in alunos)
+                        {   if(!string.IsNullOrEmpty(alunoCadastrado.Nome)){
+
+                            if(nome == alunoCadastrado.Nome){
+                                Console.WriteLine($"O aluno {nome}, foi encontrado");
+                            }
+                            else{
+                                Console.WriteLine("Aluno não existente");
+                            }
+                            Console.WriteLine();
+
+                         }
+                        }
+                           
+
+                        break;
+
+                    case "4":
                         decimal notaTotal = 0;
                         var alunosTotal = 0;
                         for (int i = 0; i < alunos.Length; i++) {
@@ -110,8 +130,9 @@ namespace Revisao {
             Console.WriteLine("Informe a opção desejada");
             Console.WriteLine("1- Inserir novo aluno");
             Console.WriteLine("2- Listar Alunos");
-            Console.WriteLine("3- Calcular Média Geral");
-            Console.WriteLine("4- Sair");
+            Console.WriteLine("3- Achar Alunos");
+            Console.WriteLine("4- Calcular Média Geral");
+            Console.WriteLine("5- Sair");
             Console.WriteLine();
 
             String opcaoUsuario = Console.ReadLine();
